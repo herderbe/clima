@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="img/clima.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/style.css">
+    <title>Clima</title>
+
+</head>
+<body>
+    <div class="contenedor">
+        <div class="busqueda">
+            <input type="text" id="locacion" placeholder="Ingrese el pais o cuidad">
+            <i class='bx bx-search-alt-2' id="btnBuscar"></i>
+        </div>
+        <div class="info info-ac">
+            <div class="icono">
+                <img src="" alt="" id="icono">
+                <span id="tempDescrip"></span>
+            </div>
+            <div class="carac">
+                <p>Latitud: <span id="lat"></span></p>
+                <p>Longitud: <span id="lon"></span></p>
+                <p>Temperatura: <span id="Temperatura"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
